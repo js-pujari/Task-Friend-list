@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
-import FriendList from './FriendList';
-import RHImage from './rh.jpg';
+import FriendList from './components/FriendList';
+import RHImage from './assets/rh.jpg';
 const App = (): ReactElement => {
   const uri = 'https://www.haptik.ai';
   return (

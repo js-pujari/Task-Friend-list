@@ -1,9 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { FormEvent, ReactElement, ReactNode, useEffect, useRef, useState } from 'react'
 import NodataFound from './NodataFound';
-import DeleteIcon from './delete.png';
+import DeleteIcon from '../assets/delete.png';
 import Pagination from './Pagination';
 
 interface Friend {
